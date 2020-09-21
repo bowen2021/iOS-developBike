@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  EBike
+//
+//  Created by 刘佳斌 on 2019/2/20.
+//  Copyright © 2019 xiaosi. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "EBTool.h"
+#import "Masonry.h"
+#import "EBMacro.h"
+#import "UIView+Frame.h"
+#import <CoreBluetooth/CoreBluetooth.h>
+#import "SVProgressHUD.h"
+#import "EBUserTool.h"
+
+#import "BLEManager.h"
+#import "BOBDataTools.h"
+#import "CBPeripheral+Extending.h"
+
+#import <Bugly/Bugly.h>
+
+
+#endif /* PrefixHeader_pch */

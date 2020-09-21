@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CB58ED02283BE7300E3A337 /* EBBleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB58ECF2283BE7200E3A337 /* EBBleCell.m */; };
+		1E915A3E16A6A890555CBB51 /* Pods_EBike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D61BF198CC1D4A40F880592 /* Pods_EBike.framework */; };
+		5333FBFA221FE010006C85E6 /* EBUserTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5333FBF9221FE010006C85E6 /* EBUserTool.m */; };
+		5390DADF222E42ED009B7675 /* EBBTDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5390DADE222E42ED009B7675 /* EBBTDataModel.m */; };
+		53A9908A2225908300F220FA /* EBPasswordAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A990892225908300F220FA /* EBPasswordAlertView.m */; };
+		53B56F84221B959F00B793AB /* EBikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B56F83221B959F00B793AB /* EBikeTests.m */; };
+		53B56F8F221B959F00B793AB /* EBikeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B56F8E221B959F00B793AB /* EBikeUITests.m */; };
+		53B56FA9221B962800B793AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B56F9F221B962800B793AB /* Assets.xcassets */; };
+		53B56FAB221B962800B793AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B56FA1221B962800B793AB /* LaunchScreen.storyboard */; };
+		53B56FAC221B962800B793AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B56FA3221B962800B793AB /* Main.storyboard */; };
+		53B56FAD221B962800B793AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B56FA5221B962800B793AB /* main.m */; };
+		53B56FAE221B962800B793AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B56FA6221B962800B793AB /* AppDelegate.m */; };
+		53B56FBD221B981F00B793AB /* EBBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B56FBC221B981F00B793AB /* EBBaseVC.m */; };
+		53B56FC4221BA07400B793AB /* EBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B56FC3221BA07400B793AB /* EBTool.m */; };
+		53D484C722566BC6008BD73E /* UIAlertController+TapGesAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D484C622566BC6008BD73E /* UIAlertController+TapGesAlertController.m */; };
+		53DFCBA2221EA2F800F2AF04 /* EBInfoFifthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DFCBA1221EA2F800F2AF04 /* EBInfoFifthCell.m */; };
+		53DFCBA5221EAD1E00F2AF04 /* EBUnitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DFCBA4221EAD1E00F2AF04 /* EBUnitView.m */; };
+		53E1AAA8221CE6E5003705A8 /* EBHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1AAA3221CE6E5003705A8 /* EBHomeVC.m */; };
+		53E1AAAB221CE701003705A8 /* EBInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1AAAA221CE701003705A8 /* EBInfoVC.m */; };
+		53E1AAAE221CF5DC003705A8 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1AAAD221CF5DB003705A8 /* UIView+Frame.m */; };
+		53E1AAB2221D05EB003705A8 /* EBInfoFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1AAB1221D05EB003705A8 /* EBInfoFirstCell.m */; };
+		53E1AAB5221D27B7003705A8 /* EBInfoPorHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1AAB4221D27B7003705A8 /* EBInfoPorHeaderView.m */; };
+		53E1AAB8221D3414003705A8 /* EBInfoSecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1AAB7221D3414003705A8 /* EBInfoSecondCell.m */; };
+		53E1AABB221D3FEC003705A8 /* EBInfoThirdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1AABA221D3FEC003705A8 /* EBInfoThirdCell.m */; };
+		53E1AABF221D4912003705A8 /* EBInfoFourthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1AABE221D4912003705A8 /* EBInfoFourthCell.m */; };
+		53E1AB0B221E424B003705A8 /* XSDashboardProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1AB08221E424B003705A8 /* XSDashboardProgressLayer.m */; };
+		53E1AB0C221E424B003705A8 /* XSDashboardProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E1AB09221E424B003705A8 /* XSDashboardProgressView.m */; };
+		53F1818A222C1E81007AE5E4 /* BLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F18187222C1E80007AE5E4 /* BLEManager.m */; };
+		53F1818B222C1E81007AE5E4 /* BOBDataTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F18189222C1E80007AE5E4 /* BOBDataTools.m */; };
+		53F1818E222C1F10007AE5E4 /* EBBlueToothVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F1818D222C1F10007AE5E4 /* EBBlueToothVC.m */; };
+		53F18191222C20AE007AE5E4 /* CBPeripheral+Extending.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F18190222C20AE007AE5E4 /* CBPeripheral+Extending.m */; };
+		53F44922223235400080B31B /* EBWheelSpeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F44921223235400080B31B /* EBWheelSpeedView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53B56F80221B959F00B793AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53B56F5F221B959E00B793AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53B56F66221B959E00B793AB;
+			remoteInfo = EBike;
+		};
+		53B56F8B221B959F00B793AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53B56F5F221B959E00B793AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53B56F66221B959E00B793AB;
+			remoteInfo = EBike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D61BF198CC1D4A40F880592 /* Pods_EBike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EBike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB58ECE2283BE7200E3A337 /* EBBleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBBleCell.h; sourceTree = "<group>"; };
+		1CB58ECF2283BE7200E3A337 /* EBBleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBBleCell.m; sourceTree = "<group>"; };
+		21201F44D6AA125702BE78BA /* Pods-EBike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBike.release.xcconfig"; path = "Pods/Target Support Files/Pods-EBike/Pods-EBike.release.xcconfig"; sourceTree = "<group>"; };
+		5333FBF8221FE010006C85E6 /* EBUserTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBUserTool.h; sourceTree = "<group>"; };
+		5333FBF9221FE010006C85E6 /* EBUserTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBUserTool.m; sourceTree = "<group>"; };
+		5390DADD222E42ED009B7675 /* EBBTDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBBTDataModel.h; sourceTree = "<group>"; };
+		5390DADE222E42ED009B7675 /* EBBTDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBBTDataModel.m; sourceTree = "<group>"; };
+		53A990882225908300F220FA /* EBPasswordAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBPasswordAlertView.h; sourceTree = "<group>"; };
+		53A990892225908300F220FA /* EBPasswordAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBPasswordAlertView.m; sourceTree = "<group>"; };
+		53B56F67221B959E00B793AB /* EBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EBike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B56F7F221B959F00B793AB /* EBikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EBikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B56F83221B959F00B793AB /* EBikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBikeTests.m; sourceTree = "<group>"; };
+		53B56F85221B959F00B793AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53B56F8A221B959F00B793AB /* EBikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EBikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B56F8E221B959F00B793AB /* EBikeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBikeUITests.m; sourceTree = "<group>"; };
+		53B56F90221B959F00B793AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53B56F9E221B962800B793AB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53B56F9F221B962800B793AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53B56FA2221B962800B793AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53B56FA4221B962800B793AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53B56FA5221B962800B793AB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53B56FA6221B962800B793AB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53B56FA7221B962800B793AB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53B56FBB221B981F00B793AB /* EBBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBBaseVC.h; sourceTree = "<group>"; };
+		53B56FBC221B981F00B793AB /* EBBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBBaseVC.m; sourceTree = "<group>"; };
+		53B56FC2221BA07400B793AB /* EBTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBTool.h; sourceTree = "<group>"; };
+		53B56FC3221BA07400B793AB /* EBTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBTool.m; sourceTree = "<group>"; };
+		53B56FC5221BA33800B793AB /* EBMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBMacro.h; sourceTree = "<group>"; };
+		53D484C522566BC6008BD73E /* UIAlertController+TapGesAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+TapGesAlertController.h"; sourceTree = "<group>"; };
+		53D484C622566BC6008BD73E /* UIAlertController+TapGesAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+TapGesAlertController.m"; sourceTree = "<group>"; };
+		53DFCBA0221EA2F800F2AF04 /* EBInfoFifthCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBInfoFifthCell.h; sourceTree = "<group>"; };
+		53DFCBA1221EA2F800F2AF04 /* EBInfoFifthCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBInfoFifthCell.m; sourceTree = "<group>"; };
+		53DFCBA3221EAD1E00F2AF04 /* EBUnitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBUnitView.h; sourceTree = "<group>"; };
+		53DFCBA4221EAD1E00F2AF04 /* EBUnitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBUnitView.m; sourceTree = "<group>"; };
+		53E1AAA2221CE6E5003705A8 /* EBHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBHomeVC.h; sourceTree = "<group>"; };
+		53E1AAA3221CE6E5003705A8 /* EBHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBHomeVC.m; sourceTree = "<group>"; };
+		53E1AAA9221CE701003705A8 /* EBInfoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBInfoVC.h; sourceTree = "<group>"; };
+		53E1AAAA221CE701003705A8 /* EBInfoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBInfoVC.m; sourceTree = "<group>"; };
+		53E1AAAC221CF5DB003705A8 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		53E1AAAD221CF5DB003705A8 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		53E1AAAF221CF60C003705A8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		53E1AAB0221D05EB003705A8 /* EBInfoFirstCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBInfoFirstCell.h; sourceTree = "<group>"; };
+		53E1AAB1221D05EB003705A8 /* EBInfoFirstCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBInfoFirstCell.m; sourceTree = "<group>"; };
+		53E1AAB3221D27B7003705A8 /* EBInfoPorHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBInfoPorHeaderView.h; sourceTree = "<group>"; };
+		53E1AAB4221D27B7003705A8 /* EBInfoPorHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBInfoPorHeaderView.m; sourceTree = "<group>"; };
+		53E1AAB6221D3414003705A8 /* EBInfoSecondCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBInfoSecondCell.h; sourceTree = "<group>"; };
+		53E1AAB7221D3414003705A8 /* EBInfoSecondCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBInfoSecondCell.m; sourceTree = "<group>"; };
+		53E1AAB9221D3FEC003705A8 /* EBInfoThirdCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBInfoThirdCell.h; sourceTree = "<group>"; };
+		53E1AABA221D3FEC003705A8 /* EBInfoThirdCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBInfoThirdCell.m; sourceTree = "<group>"; };
+		53E1AABD221D4912003705A8 /* EBInfoFourthCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBInfoFourthCell.h; sourceTree = "<group>"; };
+		53E1AABE221D4912003705A8 /* EBInfoFourthCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBInfoFourthCell.m; sourceTree = "<group>"; };
+		53E1AB07221E424B003705A8 /* XSDashboardProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSDashboardProgressView.h; sourceTree = "<group>"; };
+		53E1AB08221E424B003705A8 /* XSDashboardProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSDashboardProgressLayer.m; sourceTree = "<group>"; };
+		53E1AB09221E424B003705A8 /* XSDashboardProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSDashboardProgressView.m; sourceTree = "<group>"; };
+		53E1AB0A221E424B003705A8 /* XSDashboardProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSDashboardProgressLayer.h; sourceTree = "<group>"; };
+		53F18186222C1E80007AE5E4 /* BLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEManager.h; sourceTree = "<group>"; };
+		53F18187222C1E80007AE5E4 /* BLEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEManager.m; sourceTree = "<group>"; };
+		53F18188222C1E80007AE5E4 /* BOBDataTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOBDataTools.h; sourceTree = "<group>"; };
+		53F18189222C1E80007AE5E4 /* BOBDataTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOBDataTools.m; sourceTree = "<group>"; };
+		53F1818C222C1F10007AE5E4 /* EBBlueToothVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBBlueToothVC.h; sourceTree = "<group>"; };
+		53F1818D222C1F10007AE5E4 /* EBBlueToothVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBBlueToothVC.m; sourceTree = "<group>"; };
+		53F1818F222C20AD007AE5E4 /* CBPeripheral+Extending.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+Extending.h"; sourceTree = "<group>"; };
+		53F18190222C20AE007AE5E4 /* CBPeripheral+Extending.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+Extending.m"; sourceTree = "<group>"; };
+		53F44920223235400080B31B /* EBWheelSpeedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBWheelSpeedView.h; sourceTree = "<group>"; };
+		53F44921223235400080B31B /* EBWheelSpeedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBWheelSpeedView.m; sourceTree = "<group>"; };
+		A018F715410133192FCD633E /* Pods-EBike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EBike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EBike/Pods-EBike.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53B56F64221B959E00B793AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E915A3E16A6A890555CBB51 /* Pods_EBike.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B56F7C221B959F00B793AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B56F87221B959F00B793AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		307EEC47E8C695316FE92D5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A018F715410133192FCD633E /* Pods-EBike.debug.xcconfig */,
+				21201F44D6AA125702BE78BA /* Pods-EBike.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5390DADC222E42CC009B7675 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5390DADD222E42ED009B7675 /* EBBTDataModel.h */,
+				5390DADE222E42ED009B7675 /* EBBTDataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53A990872225906200F220FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53A990882225908300F220FA /* EBPasswordAlertView.h */,
+				53A990892225908300F220FA /* EBPasswordAlertView.m */,
+				1CB58ECE2283BE7200E3A337 /* EBBleCell.h */,
+				1CB58ECF2283BE7200E3A337 /* EBBleCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53B56F5E221B959E00B793AB = {
+			isa = PBXGroup;
+			children = (
+				53B56F69221B959E00B793AB /* EBike */,
+				53B56F82221B959F00B793AB /* EBikeTests */,
+				53B56F8D221B959F00B793AB /* EBikeUITests */,
+				53B56F68221B959E00B793AB /* Products */,
+				307EEC47E8C695316FE92D5E /* Pods */,
+				AAD899E949889FB1C98B91CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53B56F68221B959E00B793AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53B56F67221B959E00B793AB /* EBike.app */,
+				53B56F7F221B959F00B793AB /* EBikeTests.xctest */,
+				53B56F8A221B959F00B793AB /* EBikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53B56F69221B959E00B793AB /* EBike */ = {
+			isa = PBXGroup;
+			children = (
+				53F18185222C1E80007AE5E4 /* BlueTooth */,
+				53B56FC1221BA03200B793AB /* Tool */,
+				53B56FBA221B980F00B793AB /* Base */,
+				53E1AA9D221CE6E5003705A8 /* Modules */,
+				53E1AB05221E424B003705A8 /* ThirdParty */,
+				53B56F9D221B962800B793AB /* Support */,
+			);
+			path = EBike;
+			sourceTree = "<group>";
+		};
+		53B56F82221B959F00B793AB /* EBikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				53B56F83221B959F00B793AB /* EBikeTests.m */,
+				53B56F85221B959F00B793AB /* Info.plist */,
+			);
+			path = EBikeTests;
+			sourceTree = "<group>";
+		};
+		53B56F8D221B959F00B793AB /* EBikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53B56F8E221B959F00B793AB /* EBikeUITests.m */,
+				53B56F90221B959F00B793AB /* Info.plist */,
+			);
+			path = EBikeUITests;
+			sourceTree = "<group>";
+		};
+		53B56F9D221B962800B793AB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				53B56F9E221B962800B793AB /* AppDelegate.h */,
+				53B56FA6221B962800B793AB /* AppDelegate.m */,
+				53B56FA1221B962800B793AB /* LaunchScreen.storyboard */,
+				53B56F9F221B962800B793AB /* Assets.xcassets */,
+				53B56FA3221B962800B793AB /* Main.storyboard */,
+				53B56FA5221B962800B793AB /* main.m */,
+				53B56FA7221B962800B793AB /* Info.plist */,
+				53E1AAAF221CF60C003705A8 /* PrefixHeader.pch */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		53B56FBA221B980F00B793AB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				53B56FBB221B981F00B793AB /* EBBaseVC.h */,
+				53B56FBC221B981F00B793AB /* EBBaseVC.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		53B56FC1221BA03200B793AB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				53B56FC2221BA07400B793AB /* EBTool.h */,
+				53B56FC3221BA07400B793AB /* EBTool.m */,
+				5333FBF8221FE010006C85E6 /* EBUserTool.h */,
+				5333FBF9221FE010006C85E6 /* EBUserTool.m */,
+				53B56FC5221BA33800B793AB /* EBMacro.h */,
+				53E1AAAC221CF5DB003705A8 /* UIView+Frame.h */,
+				53E1AAAD221CF5DB003705A8 /* UIView+Frame.m */,
+				53D484C522566BC6008BD73E /* UIAlertController+TapGesAlertController.h */,
+				53D484C622566BC6008BD73E /* UIAlertController+TapGesAlertController.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		53E1AA9D221CE6E5003705A8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				53E1AA9E221CE6E5003705A8 /* Home */,
+				53E1AAA4221CE6E5003705A8 /* Info */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		53E1AA9E221CE6E5003705A8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				53E1AAA1221CE6E5003705A8 /* ViewController */,
+				5390DADC222E42CC009B7675 /* Model */,
+				53A990872225906200F220FA /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		53E1AAA1221CE6E5003705A8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53E1AAA2221CE6E5003705A8 /* EBHomeVC.h */,
+				53E1AAA3221CE6E5003705A8 /* EBHomeVC.m */,
+				53F1818C222C1F10007AE5E4 /* EBBlueToothVC.h */,
+				53F1818D222C1F10007AE5E4 /* EBBlueToothVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		53E1AAA4221CE6E5003705A8 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				53E1AAA7221CE6E5003705A8 /* ViewController */,
+				53E1AAA5221CE6E5003705A8 /* Model */,
+				53E1AAA6221CE6E5003705A8 /* View */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		53E1AAA5221CE6E5003705A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53E1AAA6221CE6E5003705A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53E1AAB0221D05EB003705A8 /* EBInfoFirstCell.h */,
+				53E1AAB1221D05EB003705A8 /* EBInfoFirstCell.m */,
+				53E1AAB6221D3414003705A8 /* EBInfoSecondCell.h */,
+				53E1AAB7221D3414003705A8 /* EBInfoSecondCell.m */,
+				53E1AAB9221D3FEC003705A8 /* EBInfoThirdCell.h */,
+				53E1AABA221D3FEC003705A8 /* EBInfoThirdCell.m */,
+				53E1AABD221D4912003705A8 /* EBInfoFourthCell.h */,
+				53E1AABE221D4912003705A8 /* EBInfoFourthCell.m */,
+				53DFCBA0221EA2F800F2AF04 /* EBInfoFifthCell.h */,
+				53DFCBA1221EA2F800F2AF04 /* EBInfoFifthCell.m */,
+				53E1AAB3221D27B7003705A8 /* EBInfoPorHeaderView.h */,
+				53E1AAB4221D27B7003705A8 /* EBInfoPorHeaderView.m */,
+				53DFCBA3221EAD1E00F2AF04 /* EBUnitView.h */,
+				53DFCBA4221EAD1E00F2AF04 /* EBUnitView.m */,
+				53F44920223235400080B31B /* EBWheelSpeedView.h */,
+				53F44921223235400080B31B /* EBWheelSpeedView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53E1AAA7221CE6E5003705A8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53E1AAA9221CE701003705A8 /* EBInfoVC.h */,
+				53E1AAAA221CE701003705A8 /* EBInfoVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		53E1AB05221E424B003705A8 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				53E1AB06221E424B003705A8 /* XSDashboardProgressView */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		53E1AB06221E424B003705A8 /* XSDashboardProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				53E1AB07221E424B003705A8 /* XSDashboardProgressView.h */,
+				53E1AB09221E424B003705A8 /* XSDashboardProgressView.m */,
+				53E1AB0A221E424B003705A8 /* XSDashboardProgressLayer.h */,
+				53E1AB08221E424B003705A8 /* XSDashboardProgressLayer.m */,
+			);
+			path = XSDashboardProgressView;
+			sourceTree = "<group>";
+		};
+		53F18185222C1E80007AE5E4 /* BlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				53F1818F222C20AD007AE5E4 /* CBPeripheral+Extending.h */,
+				53F18190222C20AE007AE5E4 /* CBPeripheral+Extending.m */,
+				53F18186222C1E80007AE5E4 /* BLEManager.h */,
+				53F18187222C1E80007AE5E4 /* BLEManager.m */,
+				53F18188222C1E80007AE5E4 /* BOBDataTools.h */,
+				53F18189222C1E80007AE5E4 /* BOBDataTools.m */,
+			);
+			path = BlueTooth;
+			sourceTree = "<group>";
+		};
+		AAD899E949889FB1C98B91CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D61BF198CC1D4A40F880592 /* Pods_EBike.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53B56F66221B959E00B793AB /* EBike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B56F93221B959F00B793AB /* Build configuration list for PBXNativeTarget "EBike" */;
+			buildPhases = (
+				5D79A9F178DD818BC410947E /* [CP] Check Pods Manifest.lock */,
+				53B56F63221B959E00B793AB /* Sources */,
+				53B56F64221B959E00B793AB /* Frameworks */,
+				53B56F65221B959E00B793AB /* Resources */,
+				90E6176D3494679D63994ECE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EBike;
+			productName = EBike;
+			productReference = 53B56F67221B959E00B793AB /* EBike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53B56F7E221B959F00B793AB /* EBikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B56F96221B959F00B793AB /* Build configuration list for PBXNativeTarget "EBikeTests" */;
+			buildPhases = (
+				53B56F7B221B959F00B793AB /* Sources */,
+				53B56F7C221B959F00B793AB /* Frameworks */,
+				53B56F7D221B959F00B793AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53B56F81221B959F00B793AB /* PBXTargetDependency */,
+			);
+			name = EBikeTests;
+			productName = EBikeTests;
+			productReference = 53B56F7F221B959F00B793AB /* EBikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53B56F89221B959F00B793AB /* EBikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B56F99221B959F00B793AB /* Build configuration list for PBXNativeTarget "EBikeUITests" */;
+			buildPhases = (
+				53B56F86221B959F00B793AB /* Sources */,
+				53B56F87221B959F00B793AB /* Frameworks */,
+				53B56F88221B959F00B793AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53B56F8C221B959F00B793AB /* PBXTargetDependency */,
+			);
+			name = EBikeUITests;
+			productName = EBikeUITests;
+			productReference = 53B56F8A221B959F00B793AB /* EBikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53B56F5F221B959E00B793AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = xiaosi;
+				TargetAttributes = {
+					53B56F66221B959E00B793AB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					53B56F7E221B959F00B793AB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 53B56F66221B959E00B793AB;
+					};
+					53B56F89221B959F00B793AB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 53B56F66221B959E00B793AB;
+					};
+				};
+			};
+			buildConfigurationList = 53B56F62221B959E00B793AB /* Build configuration list for PBXProject "EBike" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53B56F5E221B959E00B793AB;
+			productRefGroup = 53B56F68221B959E00B793AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53B56F66221B959E00B793AB /* EBike */,
+				53B56F7E221B959F00B793AB /* EBikeTests */,
+				53B56F89221B959F00B793AB /* EBikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53B56F65221B959E00B793AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B56FAC221B962800B793AB /* Main.storyboard in Resources */,
+				53B56FA9221B962800B793AB /* Assets.xcassets in Resources */,
+				53B56FAB221B962800B793AB /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B56F7D221B959F00B793AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B56F88221B959F00B793AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D79A9F178DD818BC410947E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EBike-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E6176D3494679D63994ECE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EBike/Pods-EBike-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EBike/Pods-EBike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53B56F63221B959E00B793AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B56FAD221B962800B793AB /* main.m in Sources */,
+				53E1AAA8221CE6E5003705A8 /* EBHomeVC.m in Sources */,
+				53F44922223235400080B31B /* EBWheelSpeedView.m in Sources */,
+				53B56FC4221BA07400B793AB /* EBTool.m in Sources */,
+				53F18191222C20AE007AE5E4 /* CBPeripheral+Extending.m in Sources */,
+				53F1818B222C1E81007AE5E4 /* BOBDataTools.m in Sources */,
+				5333FBFA221FE010006C85E6 /* EBUserTool.m in Sources */,
+				53A9908A2225908300F220FA /* EBPasswordAlertView.m in Sources */,
+				53E1AAAE221CF5DC003705A8 /* UIView+Frame.m in Sources */,
+				53E1AB0B221E424B003705A8 /* XSDashboardProgressLayer.m in Sources */,
+				53F1818E222C1F10007AE5E4 /* EBBlueToothVC.m in Sources */,
+				53E1AB0C221E424B003705A8 /* XSDashboardProgressView.m in Sources */,
+				53E1AABF221D4912003705A8 /* EBInfoFourthCell.m in Sources */,
+				53E1AAB8221D3414003705A8 /* EBInfoSecondCell.m in Sources */,
+				53DFCBA2221EA2F800F2AF04 /* EBInfoFifthCell.m in Sources */,
+				53DFCBA5221EAD1E00F2AF04 /* EBUnitView.m in Sources */,
+				53E1AAAB221CE701003705A8 /* EBInfoVC.m in Sources */,
+				53E1AAB5221D27B7003705A8 /* EBInfoPorHeaderView.m in Sources */,
+				53B56FBD221B981F00B793AB /* EBBaseVC.m in Sources */,
+				53D484C722566BC6008BD73E /* UIAlertController+TapGesAlertController.m in Sources */,
+				53B56FAE221B962800B793AB /* AppDelegate.m in Sources */,
+				5390DADF222E42ED009B7675 /* EBBTDataModel.m in Sources */,
+				53E1AABB221D3FEC003705A8 /* EBInfoThirdCell.m in Sources */,
+				53E1AAB2221D05EB003705A8 /* EBInfoFirstCell.m in Sources */,
+				1CB58ED02283BE7300E3A337 /* EBBleCell.m in Sources */,
+				53F1818A222C1E81007AE5E4 /* BLEManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B56F7B221B959F00B793AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B56F84221B959F00B793AB /* EBikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B56F86221B959F00B793AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B56F8F221B959F00B793AB /* EBikeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53B56F81221B959F00B793AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53B56F66221B959E00B793AB /* EBike */;
+			targetProxy = 53B56F80221B959F00B793AB /* PBXContainerItemProxy */;
+		};
+		53B56F8C221B959F00B793AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53B56F66221B959E00B793AB /* EBike */;
+			targetProxy = 53B56F8B221B959F00B793AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53B56FA1221B962800B793AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B56FA2221B962800B793AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		53B56FA3221B962800B793AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B56FA4221B962800B793AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53B56F91221B959F00B793AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53B56F92221B959F00B793AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53B56F94221B959F00B793AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A018F715410133192FCD633E /* Pods-EBike.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5MQ7GB5MT9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/EBike/Support/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/EBike/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsbicycle.lifestyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = liftstyle_pro_store_dis;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		53B56F95221B959F00B793AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21201F44D6AA125702BE78BA /* Pods-EBike.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5MQ7GB5MT9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/EBike/Support/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/EBike/Support/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsbicycle.lifestyle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = liftstyle_pro_store_dis;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		53B56F97221B959F00B793AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				INFOPLIST_FILE = EBikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.EBikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EBike.app/EBike";
+			};
+			name = Debug;
+		};
+		53B56F98221B959F00B793AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				INFOPLIST_FILE = EBikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.EBikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EBike.app/EBike";
+			};
+			name = Release;
+		};
+		53B56F9A221B959F00B793AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				INFOPLIST_FILE = EBikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.EBikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EBike;
+			};
+			name = Debug;
+		};
+		53B56F9B221B959F00B793AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUSYPMNH7Y;
+				INFOPLIST_FILE = EBikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaosi.EBikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EBike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53B56F62221B959E00B793AB /* Build configuration list for PBXProject "EBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B56F91221B959F00B793AB /* Debug */,
+				53B56F92221B959F00B793AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B56F93221B959F00B793AB /* Build configuration list for PBXNativeTarget "EBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B56F94221B959F00B793AB /* Debug */,
+				53B56F95221B959F00B793AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B56F96221B959F00B793AB /* Build configuration list for PBXNativeTarget "EBikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B56F97221B959F00B793AB /* Debug */,
+				53B56F98221B959F00B793AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B56F99221B959F00B793AB /* Build configuration list for PBXNativeTarget "EBikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B56F9A221B959F00B793AB /* Debug */,
+				53B56F9B221B959F00B793AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53B56F5F221B959E00B793AB /* Project object */;
+}

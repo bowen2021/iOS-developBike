@@ -1,0 +1,24 @@
+PODS:
+  - Bugly (2.5.0)
+  - Masonry (1.1.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Bugly
+  - Masonry
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bugly
+    - Masonry
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 3a1a5d710339f7a5e06a490c6f02f40adc23ab43
+
+COCOAPODS: 1.6.1
